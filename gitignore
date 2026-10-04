@@ -1,0 +1,10 @@
+.venv/bin/python
+.venv/bin/python3
+env/bin/python
+env/bin/python3
+ENV/bin/python
+ENV/bin/python3
+env.bak/bin/python
+env.bak/bin/python3
+venv.bak/bin/python
+venv.bak/bin/python3

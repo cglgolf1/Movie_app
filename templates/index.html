@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie App</title>
+</head>
+<body>
+    {% block content %}
+    <h1>My Favorite Movie</h1>
+    {% if movies %}
+        <ul>
+        {% for movie in movies %}
+            <li>{{ movie.title }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No favorite movies...</p>
+
+    {% endif %}
+
+    {% endblock %}
+
+</body>
+</html>
